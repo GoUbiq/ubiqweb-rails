@@ -1,3 +1,5 @@
 Using rails for recreating the main site.
 
-This readme should be filled up accordingly, please do so when you have time
+- Make sure the assets are precompiled for production for caching them!
+
+This readme should be filled up accordingly, please do so when you have time.

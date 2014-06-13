@@ -6,6 +6,7 @@ gem 'rails', '4.0.5'
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails', '2.13.1'
+	gem 'therubyracer', :platforms => :ruby
 end
 
 group :test do
