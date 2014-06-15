@@ -1,2 +1,153 @@
 <% provide(:title, 'Wireless Presentations') %>
-<h1>Ubiq</h1>
+
+<div id="home">
+	<div id="hero">
+		<div class="container" style="padding-left: 5px">
+			<h1 class="hero-text animated fadeInDown">
+				The New Way <br />
+				Of Presentations
+			</h1>
+			<p class="sub-text animated fadeInDown">
+			Ubiq allows organizations to give wireless<br> presentations in their meetings and conference rooms.
+			</p>
+			<div class="cta animated fadeInDown">
+				<%= link_to "Learn More", '#features', class: "button-outline" %>
+				<%= link_to "Request Free Demo", '#contact', class: "button" %>
+			</div>
+			<!--<div class="img"></div>-->
+		</div>
+	</div>
+</div>
+
+<div id="home">
+	<div id="features">
+			<div id="grad1">
+				<div style="padding-left: 15px; padding-right: 15px;" class="container">
+					<div style="margin-left: -15px; margin-right: -15px;"class="row header">
+						<div style="width: 50%; float: left" class="col-md-6">
+							<h2><b>Introducing</b><br> wireless presentations</h2><br>
+							<p>Ubiq is new way of interacting with projectors and TVs in your meeting rooms. Get rid of cables and switch boxes and start presenting wirelessly from your device.<br><br>Plug in the Hive into the projector or TV and simply install the application on your device to start wirelessly presenting.</p>
+						</div>
+						<div style="display: block" class="col-md-6 image">
+							<br><%= image_tag("model.png", class: "img-responsive", alt: "feature1", size:"455x303") %>
+						</div>
+					</div>
+
+					<br><br><div class="col-md-4">
+							<div class="section">
+								<div>
+									<%= image_tag("numbers/one.png", class: "img-responsive", alt:"services2") %>
+								</div>
+								<div class="info">
+									<strong><font size="5px">Login</font></strong>
+									<p>
+										<font size="3px">Sign in using your organization credentials.</font>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="section">
+								<div>
+									<%= image_tag("numbers/two.png", class: "img-responsive", alt: "services4") %>
+								</div>
+								<div class="info">
+									<strong><font size="5px">Connect To Hive</font></strong>
+									<p>
+										<font size="3px">Connect to the projector you want to present on.</font>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="section">
+								<div>
+									<%= image_tag("numbers/three.png", class: "img-responsive", alt: "services3") %>
+								</div>
+								<div class="info">
+									<strong><font size="5px">Click Play</font></strong>
+									<p>
+										<font size="3px">Click start to begin your wireless presentation!</font>
+									</p>
+								</div>
+							</div>
+						</div>
+				</div>	
+				<br>
+			</div>
+	</div>
+</div>
+	<div id="grad1">
+		<div id="first-option" style="text-align:center">
+			<div class="container">
+				<h1>Product & <b> Features</b></h1><br>
+					<div class="row">
+						<div class="col-md-4 feature">
+							<%= image_tag("circle-icons/full-color/tools.png", alt: "credit-card") %>
+							<strong><br>Easy Installation</strong>
+							<p>Plug the Hive into your projector and configure and start presenting within minutes.</p>
+						</div>
+						<div class="col-md-4 feature">
+							<%= image_tag("circle-icons/full-color/image.png", alt: "dev") %>
+							<strong><br>1080p HD Quality</strong>
+							<p>Our newly designed cutting edge technology enables you to present<br> in 1080p with near-zero latency.</p>
+						</div>
+						<div class="col-md-4 feature">
+							<%= image_tag("circle-icons/full-color/computer.png", alt: "globe") %>
+							<strong><br>Multi-Device Support</strong>
+							<p>Ubiq app is available for OS X, Windows and iOS devices.</p>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+
+<div id="features">	
+	<div id="first-option">
+		<div class="container">
+			<div class="row header">
+				<div class="container">
+				<h1><b>Ubiq</b> At Your Business</h1><br></div>
+			</div>
+			<div id="grad1" class="row feature">
+				<div class="col-md-6 info">
+					<h2>Security</h2>
+					<p>
+						<b>At Ubiq, your security is paramount to us. All data streamed to the Hive is encrypted using AES session encoding.</b><br><br>
+						&#8226;We don't store any data on the Hive and it is cleared as soon as the presentation is complete.<br>
+						&#8226;Access to the Hive is complete configurable to ensure people with the right privileges can access the Hive. 
+					</p>
+				</div>
+				<div class="col-md-6 image">
+					<%= image_tag("lock.png", class: "img-responsive", alt: "feature1",  size: "300x201") %>
+				</div>
+			</div>
+			<div id="grad1" class="row feature backwards">
+				<div class="col-md-6 info">
+					<h2>Remote Presentations</h2>
+					<p>
+						<b>Ubiq presents you with the leisure of presenting through any Hive you wish around the world</b><br><br>
+						&#8226;Securely present to any projector/TV that has the Hive installed from anywhere around the world.<br>
+						&#8226;Further remote users can view the information on the projector in the meeting room from a remote device.
+					</p>
+				</div>
+				<div class="col-md-6 image">
+					<%= image_tag("globe.png", class: "img-responsive", alt: "feature2", size: "250x248") %>
+				</div>
+			</div>
+			<div id="grad1" class="row feature last">
+				<div class="col-md-6 info">
+					<h2>Single Sign-On</h2>
+					<p>
+						<b>Gain access to all of Ubiq features through a simple login.</b><br><br>
+						&#8226;Simply login with your organization credentials to gain access to all your cloud information.<br>
+						&#8226;Present your files from any cloud file service to your projector without having to download it.
+					</p>
+				</div>
+				<div class="col-md-6 image">
+					<%= image_tag("signon.png", class: "img-responsive", alt: "feature3", size: "300x203") %>
+				</div>
+			</div><br>
+		</div>
+	</div>
+</div>
