@@ -1,4 +1,5 @@
 class IndexController < ApplicationController
-  def home
-  end
+	def home
+		@demouser = DemoUser.new
+	end
 end
